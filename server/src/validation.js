@@ -35,7 +35,8 @@ export function parseInscription(body) {
   else if (d.email.length > 254 || !EMAIL.test(d.email)) e.email = 'invalidEmail'
   if (!EVENTS.includes(d.event)) e.event = 'required'
   if (!['email', 'whatsapp'].includes(d.channel)) e.channel = 'invalid'
-  return result(e, d)
+  if (body.consent !== true) e.consent = 'required'
+  return result(e, { ...d, consent: true })
 }
 
 export function parseNewsletter(body) {
@@ -43,5 +44,6 @@ export function parseNewsletter(body) {
   const e = {}
   if (!d.email) e.email = 'required'
   else if (d.email.length > 254 || !EMAIL.test(d.email)) e.email = 'invalidEmail'
-  return result(e, d)
+  if (body.consent !== true) e.consent = 'required'
+  return result(e, { ...d, consent: true })
 }

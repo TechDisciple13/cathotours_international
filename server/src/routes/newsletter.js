@@ -18,9 +18,9 @@ router.post('/', limiter, async (req, res) => {
   const { email, lang } = parsed.data
   if (!(await hasEmail('newsletters.json', email))) {
     const createdAt = new Date().toISOString()
-    await appendRecord('newsletters.json', { createdAt, email, lang })
+    await appendRecord('newsletters.json', { createdAt, consentAt: createdAt, email, lang, consent: true })
     try {
-      await appendRow('Newsletter', ['Date', 'E-mail', 'Langue'], [createdAt, email, lang])
+      await appendRow('Newsletter', ['Date', 'E-mail', 'Langue', 'Consentement'], [createdAt, email, lang, createdAt])
     } catch (err) {
       console.error(`[newsletter] Google Sheets : ${err.message}`)
     }

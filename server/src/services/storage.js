@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const dir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../data')
+const dir = process.env.DATA_DIR ? path.resolve(process.env.DATA_DIR) : path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../data')
 let queue = Promise.resolve()
 
 async function readList(file) {
