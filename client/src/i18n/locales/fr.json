@@ -1,0 +1,251 @@
+{
+  "common": {
+    "brandName": "Catho Tours International",
+    "language": "Langue",
+    "menu": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "mainNav": "Navigation principale",
+    "mobileNav": "Navigation mobile",
+    "breadcrumb": "Fil d'Ariane"
+  },
+  "nav": {
+    "register": "S'inscrire",
+    "groups": {
+      "about": "À propos",
+      "activities": "Nos activités",
+      "editions": "Nos éditions",
+      "partners": "Partenaires"
+    },
+    "items": {
+      "identity": "Notre identité",
+      "history": "Notre histoire",
+      "team": "Rencontrer l'équipe",
+      "members": "Membres et associés",
+      "commitments": "Nos engagements",
+      "testimonials": "Témoignages",
+      "volunteering": "Volontarisme",
+      "peacePrize": "Prix de la paix",
+      "ecclesial": "Impact ecclésial catholique et interreligieux",
+      "regional": "Programme régional",
+      "tourism": "Le tourisme",
+      "whereWeAre": "Où sommes-nous",
+      "allEditions": "Nos éditions",
+      "aftercatho": "AfterCatho",
+      "universel": "L'Universel",
+      "peleVelo": "Pélé Vélo"
+    }
+  },
+  "hero": {
+    "eyebrow": "Tourisme · Foi · Fraternité",
+    "title": "Voyageons ensemble, dans la foi et la fraternité",
+    "text": "Découvrez de nouvelles destinations, partagez des cultures et vivez des rencontres authentiques. Catho Tours International vous invite à construire une fraternité durable à travers le tourisme.",
+    "ctaPrimary": "Découvrir nos éditions",
+    "ctaSecondary": "Notre mission",
+    "imageAlt": {
+      "group": "Jeunes participants souriants lors d'un voyage Catho Tours International",
+      "culture": "Rencontre interculturelle entre participants et habitants",
+      "landmark": "Participants devant un édifice religieux emblématique"
+    }
+  },
+  "destinations": {
+    "title": "Nos destinations",
+    "seeAll": "Voir toutes les destinations",
+    "seeAllShort": "Voir toutes",
+    "region": "Afrique de l'Ouest",
+    "items": {
+      "togo": "Togo",
+      "benin": "Bénin",
+      "ghana": "Ghana",
+      "cotedivoire": "Côte d'Ivoire"
+    },
+    "imageAlt": "Illustration de la destination : {{name}}"
+  },
+  "news": {
+    "title": "Nos dernières actualités",
+    "seeAll": "Voir toutes les actualités",
+    "seeAllShort": "Voir toutes",
+    "categories": {
+      "testimonials": "Témoignages",
+      "news": "Actualités",
+      "story": "Récit de voyage"
+    },
+    "items": {
+      "n1": {
+        "title": "Titre de l'actualité principale (démonstration)",
+        "excerpt": "Extrait de démonstration, à remplacer par le contenu officiel validé."
+      },
+      "n2": {
+        "title": "Titre de l'actualité 2 (démonstration)"
+      },
+      "n3": {
+        "title": "Titre de l'actualité 3 (démonstration)"
+      },
+      "n4": {
+        "title": "Titre de l'actualité 4 (démonstration)"
+      }
+    },
+    "imageAlt": "Illustration de l'article : {{title}}"
+  },
+  "testimonials": {
+    "title": "La fraternité en mouvement",
+    "seeAll": "Voir tous les témoignages",
+    "seeAllShort": "Voir tous",
+    "quote": "Le témoignage d'un participant sera présenté ici, après validation.",
+    "author": "Nom du participant",
+    "role": "Édition à confirmer",
+    "avatarAlt": "Photo du participant",
+    "imageAlt": "Voyageurs marchant ensemble lors d'une édition Catho Tours International"
+  },
+  "newsletter": {
+    "title": "Recevez nos nouvelles et prochaines éditions",
+    "text": "Inscrivez-vous à notre newsletter pour ne rien manquer de nos voyages, de nos événements et de nos témoignages.",
+    "placeholder": "Votre adresse e-mail",
+    "emailLabel": "Adresse e-mail pour la newsletter",
+    "button": "S'abonner",
+    "errorEmpty": "Saisissez votre adresse e-mail.",
+    "errorInvalid": "Cette adresse e-mail semble incorrecte. Vérifiez-la et réessayez.",
+    "success": "Merci, votre adresse a bien été enregistrée.",
+    "errorConsent": "Cochez la case pour vous abonner."
+  },
+  "footer": {
+    "tagline": "Tourisme, foi et fraternité en Afrique",
+    "discover": "Découvrir",
+    "activities": "Nos activités",
+    "contact": "Nous contacter",
+    "links": {
+      "home": "Accueil",
+      "about": "À propos",
+      "editions": "Nos éditions",
+      "partners": "Partenaires",
+      "contact": "Contact",
+      "aftercatho": "AfterCatho",
+      "universel": "L'Universel",
+      "peleVelo": "Pélé Vélo"
+    },
+    "legal": {
+      "privacy": "Politique de confidentialité",
+      "notices": "Mentions légales"
+    },
+    "copyright": "© 2026 Catho Tours International. Tous droits réservés.",
+    "social": "Réseaux sociaux",
+    "socialOn": "Catho Tours International sur {{network}}"
+  },
+  "comingSoon": {
+    "title": "Bientôt disponible",
+    "text": "Cette page est en cours de préparation. Merci de votre patience.",
+    "back": "Retour à l'accueil"
+  },
+  "partners": {
+    "title": "Partenaires",
+    "breadcrumb": "Accueil",
+    "intro": "Catho Tours International avance grâce à l'engagement de partenaires qui partagent ses valeurs de foi, de fraternité et de découverte.",
+    "listTitle": "Ils nous accompagnent",
+    "logoAlt": "Logo du partenaire {{n}}",
+    "logoLabel": "Logo à fournir",
+    "joinTitle": "Devenir partenaire",
+    "joinText": "Vous souhaitez soutenir nos activités ou construire un projet avec nous ? Écrivez-nous.",
+    "joinButton": "Nous écrire"
+  },
+  "carousel": {
+    "prev": "Précédent",
+    "next": "Suivant"
+  },
+  "register": {
+    "breadcrumb": "Accueil",
+    "title": "Préinscription",
+    "intro": "Renseignez vos informations pour vous préinscrire à l'un de nos événements. Les champs facultatifs sont indiqués.",
+    "lastName": "Nom",
+    "firstNames": "Prénoms",
+    "gender": "Sexe",
+    "female": "Féminin",
+    "male": "Masculin",
+    "role": "Fonction",
+    "size": "Taille",
+    "phone": "Téléphone",
+    "countryCode": "Indicatif du pays",
+    "email": "Adresse e-mail",
+    "event": "Événement",
+    "eventPlaceholder": "Choisir un événement",
+    "select": "Choisir",
+    "channel": "Canal de confirmation",
+    "channelEmail": "E-mail",
+    "channelWhatsapp": "WhatsApp",
+    "whatsappNote": "La confirmation par WhatsApp est envoyée manuellement au numéro indiqué.",
+    "optional": "facultatif",
+    "required": "Ce champ est obligatoire.",
+    "invalidEmail": "Saisissez une adresse e-mail valide.",
+    "invalidPhone": "Saisissez un numéro valide (6 à 12 chiffres).",
+    "submit": "Envoyer ma préinscription",
+    "success": "Merci, votre préinscription a bien été enregistrée.",
+    "consentRequired": "Vous devez accepter pour envoyer le formulaire."
+  },
+  "api": {
+    "sending": "Envoi en cours…",
+    "errorServer": "L'envoi n'a pas pu aboutir. Réessayez dans quelques instants.",
+    "errorRateLimit": "Trop de tentatives. Réessayez dans quelques minutes.",
+    "errorNetwork": "Connexion impossible. Vérifiez votre réseau et réessayez."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "L'adresse demandée n'existe pas ou a été déplacée.",
+    "back": "Retour à l'accueil"
+  },
+  "seo": {
+    "home": "Catho Tours International : tourisme, foi et fraternité en Afrique. Voyages, rencontres interculturelles et mobilité des jeunes.",
+    "partners": "Découvrez les partenaires de Catho Tours International, qui soutiennent le tourisme, la foi et la fraternité en Afrique.",
+    "register": "Préinscrivez-vous à un événement de Catho Tours International : AfterCatho, L'Universel ou Pélé Vélo.",
+    "privacy": "Politique de confidentialité de Catho Tours International : données collectées, finalités, durée de conservation et vos droits."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "consentBefore": "J'ai lu la ",
+    "consentLink": "politique de confidentialité",
+    "consentAfter": " et j'accepte que mes données soient traitées pour gérer ma préinscription.",
+    "newsletterBefore": "J'accepte de recevoir la newsletter. Voir la ",
+    "newsletterAfter": ".",
+    "frOnly": "Cette politique est disponible en français uniquement pour le moment.",
+    "draftNotice": "Version provisoire : les mentions entre crochets doivent être complétées, et le texte validé par un juriste, avant la mise en ligne.",
+    "sections": {
+      "controller": {
+        "title": "1. Responsable du traitement",
+        "text": "Catho Tours International est responsable du traitement des données collectées sur ce site.\nContact : photo26.cathotoursinternational@gmail.com\n[Forme juridique, adresse et pays du siège : à compléter]"
+      },
+      "data": {
+        "title": "2. Données collectées",
+        "text": "Lors d'une préinscription :\n- nom, prénoms et sexe ;\n- fonction et taille (facultatives) ;\n- numéro de téléphone et adresse e-mail ;\n- événement choisi et canal de confirmation (e-mail ou WhatsApp) ;\n- langue de l'interface et date de votre consentement.\nLors d'un abonnement à la newsletter :\n- adresse e-mail, langue de l'interface et date de votre consentement.\nVotre adresse IP est utilisée temporairement en mémoire pour limiter les envois abusifs et n'est pas inscrite dans nos fichiers. Votre hébergeur peut toutefois conserver des journaux techniques."
+      },
+      "purposes": {
+        "title": "3. Finalités",
+        "text": "Vos données servent uniquement à :\n- enregistrer et traiter votre préinscription ;\n- vous confirmer votre inscription par e-mail, ou vous contacter manuellement sur WhatsApp si vous avez choisi ce canal ;\n- organiser nos événements ;\n- vous envoyer notre newsletter, uniquement si vous vous y êtes abonné."
+      },
+      "basis": {
+        "title": "4. Base légale",
+        "text": "Le traitement repose sur votre consentement, exprimé en cochant la case prévue dans chaque formulaire. Vous pouvez le retirer à tout moment en nous écrivant, sans remettre en cause les traitements déjà effectués."
+      },
+      "recipients": {
+        "title": "5. Destinataires et prestataires",
+        "text": "Vos données sont accessibles aux seules personnes habilitées de Catho Tours International.\nElles sont enregistrées avec l'aide de prestataires techniques : Google (Google Sheets et Apps Script) pour la collecte, un service de messagerie pour les e-mails et [hébergeur du site et de l'API : à compléter].\nCertains prestataires peuvent traiter des données hors de votre pays ou de l'Union européenne. [Garanties applicables : à compléter]\nNous ne vendons pas vos données."
+      },
+      "retention": {
+        "title": "6. Durée de conservation",
+        "text": "[Durée de conservation des préinscriptions et des abonnements à la newsletter : à définir et à compléter]"
+      },
+      "rights": {
+        "title": "7. Vos droits",
+        "text": "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation ou l'opposition au traitement, leur portabilité, et retirer votre consentement.\nPour exercer ces droits, écrivez à : photo26.cathotoursinternational@gmail.com\nVous pouvez aussi introduire une réclamation auprès de l'autorité de protection des données de votre pays. [Autorité compétente : à compléter]"
+      },
+      "security": {
+        "title": "8. Sécurité",
+        "text": "Les échanges avec le site sont chiffrés en production (HTTPS), l'accès aux données est restreint et les formulaires sont protégés contre les envois automatisés."
+      },
+      "cookies": {
+        "title": "9. Cookies et stockage local",
+        "text": "Ce site n'utilise ni cookie de suivi, ni outil de mesure d'audience, ni publicité. Il enregistre uniquement votre choix de langue dans le stockage local de votre navigateur."
+      },
+      "updated": {
+        "title": "10. Mise à jour",
+        "text": "Dernière mise à jour : [date à compléter]"
+      }
+    }
+  }
+}

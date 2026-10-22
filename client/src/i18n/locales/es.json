@@ -1,0 +1,190 @@
+{
+  "common": {
+    "brandName": "Catho Tours International",
+    "language": "Idioma",
+    "menu": "Abrir el menú",
+    "close": "Cerrar el menú",
+    "mainNav": "Navegación principal",
+    "mobileNav": "Navegación móvil",
+    "breadcrumb": "Ruta de navegación"
+  },
+  "nav": {
+    "register": "Inscribirse",
+    "groups": {
+      "about": "Acerca de",
+      "activities": "Nuestras actividades",
+      "editions": "Nuestras ediciones",
+      "partners": "Socios"
+    },
+    "items": {
+      "identity": "Nuestra identidad",
+      "history": "Nuestra historia",
+      "team": "Conoce al equipo",
+      "members": "Miembros y asociados",
+      "commitments": "Nuestros compromisos",
+      "testimonials": "Testimonios",
+      "volunteering": "Voluntariado",
+      "peacePrize": "Premio de la Paz",
+      "ecclesial": "Impacto eclesial católico e interreligioso",
+      "regional": "Programa regional",
+      "tourism": "Turismo",
+      "whereWeAre": "Dónde estamos",
+      "allEditions": "Nuestras ediciones",
+      "aftercatho": "AfterCatho",
+      "universel": "L'Universel",
+      "peleVelo": "Pélé Vélo"
+    }
+  },
+  "hero": {
+    "eyebrow": "Turismo · Fe · Fraternidad",
+    "title": "Viajemos juntos, en la fe y la fraternidad",
+    "text": "Descubre nuevos destinos, comparte culturas y vive encuentros auténticos. Catho Tours International te invita a construir una fraternidad duradera a través del turismo.",
+    "ctaPrimary": "Descubrir nuestras ediciones",
+    "ctaSecondary": "Nuestra misión",
+    "imageAlt": {
+      "group": "Jóvenes participantes sonrientes durante un viaje de Catho Tours International",
+      "culture": "Encuentro intercultural entre participantes y habitantes",
+      "landmark": "Participantes frente a un edificio religioso emblemático"
+    }
+  },
+  "destinations": {
+    "title": "Nuestros destinos",
+    "seeAll": "Ver todos los destinos",
+    "seeAllShort": "Ver todos",
+    "region": "África Occidental",
+    "items": {
+      "togo": "Togo",
+      "benin": "Benín",
+      "ghana": "Ghana",
+      "cotedivoire": "Costa de Marfil"
+    },
+    "imageAlt": "Ilustración del destino: {{name}}"
+  },
+  "news": {
+    "title": "Nuestras últimas noticias",
+    "seeAll": "Ver todas las noticias",
+    "seeAllShort": "Ver todas",
+    "categories": {
+      "testimonials": "Testimonios",
+      "news": "Noticias",
+      "story": "Relato de viaje"
+    },
+    "imageAlt": "Ilustración del artículo: {{title}}"
+  },
+  "testimonials": {
+    "title": "La fraternidad en movimiento",
+    "seeAll": "Ver todos los testimonios",
+    "seeAllShort": "Ver todos",
+    "avatarAlt": "Foto del participante",
+    "imageAlt": "Viajeros caminando juntos durante una edición de Catho Tours International"
+  },
+  "newsletter": {
+    "title": "Recibe nuestras noticias y próximas ediciones",
+    "text": "Suscríbete a nuestro boletín para no perderte nuestros viajes, eventos y testimonios.",
+    "placeholder": "Tu correo electrónico",
+    "emailLabel": "Correo electrónico para el boletín",
+    "button": "Suscribirse",
+    "errorEmpty": "Introduce tu correo electrónico.",
+    "errorInvalid": "Este correo electrónico parece incorrecto. Compruébalo e inténtalo de nuevo.",
+    "success": "Gracias, tu dirección ha sido registrada.",
+    "errorConsent": "Marca la casilla para suscribirte."
+  },
+  "footer": {
+    "tagline": "Turismo, fe y fraternidad en África",
+    "discover": "Descubrir",
+    "activities": "Nuestras actividades",
+    "contact": "Contáctanos",
+    "links": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "editions": "Nuestras ediciones",
+      "partners": "Socios",
+      "contact": "Contacto",
+      "aftercatho": "AfterCatho",
+      "universel": "L'Universel",
+      "peleVelo": "Pélé Vélo"
+    },
+    "legal": {
+      "privacy": "Política de privacidad",
+      "notices": "Aviso legal"
+    },
+    "copyright": "© 2026 Catho Tours International. Todos los derechos reservados.",
+    "social": "Redes sociales",
+    "socialOn": "Catho Tours International en {{network}}"
+  },
+  "comingSoon": {
+    "title": "Próximamente",
+    "text": "Esta página está en preparación. Gracias por tu paciencia.",
+    "back": "Volver al inicio"
+  },
+  "partners": {
+    "title": "Socios",
+    "breadcrumb": "Inicio",
+    "intro": "Catho Tours International avanza gracias al compromiso de socios que comparten sus valores de fe, fraternidad y descubrimiento.",
+    "listTitle": "Quienes nos acompañan",
+    "logoAlt": "Logotipo del socio {{n}}",
+    "logoLabel": "Logotipo por aportar",
+    "joinTitle": "Ser socio",
+    "joinText": "¿Quieres apoyar nuestras actividades o construir un proyecto con nosotros? Escríbenos.",
+    "joinButton": "Escríbenos"
+  },
+  "carousel": {
+    "prev": "Anterior",
+    "next": "Siguiente"
+  },
+  "register": {
+    "breadcrumb": "Inicio",
+    "title": "Preinscripción",
+    "intro": "Rellena tus datos para preinscribirte en uno de nuestros eventos. Los campos opcionales están indicados.",
+    "lastName": "Apellido",
+    "firstNames": "Nombres",
+    "gender": "Sexo",
+    "female": "Femenino",
+    "male": "Masculino",
+    "role": "Función",
+    "size": "Talla",
+    "phone": "Teléfono",
+    "countryCode": "Prefijo del país",
+    "email": "Correo electrónico",
+    "event": "Evento",
+    "eventPlaceholder": "Elegir un evento",
+    "select": "Elegir",
+    "channel": "Canal de confirmación",
+    "channelEmail": "Correo electrónico",
+    "channelWhatsapp": "WhatsApp",
+    "whatsappNote": "La confirmación por WhatsApp se envía manualmente al número indicado.",
+    "optional": "opcional",
+    "required": "Este campo es obligatorio.",
+    "invalidEmail": "Introduce un correo electrónico válido.",
+    "invalidPhone": "Introduce un número válido (de 6 a 12 dígitos).",
+    "submit": "Enviar mi preinscripción",
+    "success": "Gracias, tu preinscripción ha sido registrada.",
+    "consentRequired": "Debes aceptar para enviar el formulario."
+  },
+  "api": {
+    "sending": "Enviando…",
+    "errorServer": "No se pudo completar el envío. Inténtalo de nuevo en unos instantes.",
+    "errorRateLimit": "Demasiados intentos. Inténtalo de nuevo en unos minutos.",
+    "errorNetwork": "No se puede conectar. Comprueba tu red e inténtalo de nuevo."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "text": "La dirección solicitada no existe o ha sido movida.",
+    "back": "Volver al inicio"
+  },
+  "seo": {
+    "home": "Catho Tours International: turismo, fe y fraternidad en África. Viajes, encuentros interculturales y movilidad de los jóvenes.",
+    "partners": "Descubre a los socios de Catho Tours International, que apoyan el turismo, la fe y la fraternidad en África.",
+    "register": "Preinscríbete en un evento de Catho Tours International: AfterCatho, L'Universel o Pélé Vélo.",
+    "privacy": "Política de privacidad de Catho Tours International: datos recogidos, finalidades, conservación y tus derechos."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "consentBefore": "He leído la ",
+    "consentLink": "política de privacidad",
+    "consentAfter": " y acepto que mis datos se traten para gestionar mi preinscripción.",
+    "newsletterBefore": "Acepto recibir el boletín. Consulta la ",
+    "newsletterAfter": ".",
+    "frOnly": "Esta política está disponible por ahora solo en francés."
+  }
+}
