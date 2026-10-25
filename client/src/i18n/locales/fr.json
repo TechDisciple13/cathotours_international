@@ -148,7 +148,10 @@
   },
   "carousel": {
     "prev": "Précédent",
-    "next": "Suivant"
+    "next": "Suivant",
+    "slide": "Diapositive {{n}} sur {{total}}",
+    "goTo": "Aller à la diapositive {{n}} sur {{total}}",
+    "roleDescription": "carrousel"
   },
   "register": {
     "breadcrumb": "Accueil",

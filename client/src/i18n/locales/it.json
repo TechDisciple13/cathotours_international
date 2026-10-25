@@ -130,7 +130,10 @@
   },
   "carousel": {
     "prev": "Precedente",
-    "next": "Successivo"
+    "next": "Successivo",
+    "slide": "Diapositiva {{n}} di {{total}}",
+    "goTo": "Vai alla diapositiva {{n}} di {{total}}",
+    "roleDescription": "carosello"
   },
   "register": {
     "breadcrumb": "Home",

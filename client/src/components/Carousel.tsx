@@ -31,7 +31,7 @@ export default function Carousel({ label, children }: Props) {
   }
 
   return (
-    <div role="region" aria-roledescription="carrousel" aria-label={label}>
+    <div role="region" aria-roledescription={t('carousel.roleDescription')} aria-label={label}>
       <div className="mb-3 flex justify-end gap-2">
         <button type="button" aria-label={t('carousel.prev')} disabled={edges.start} onClick={() => go(-1)} className={btn}>
           <ChevronLeft className="size-5" aria-hidden="true" />

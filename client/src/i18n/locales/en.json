@@ -130,7 +130,10 @@
   },
   "carousel": {
     "prev": "Previous",
-    "next": "Next"
+    "next": "Next",
+    "slide": "Slide {{n}} of {{total}}",
+    "goTo": "Go to slide {{n}} of {{total}}",
+    "roleDescription": "carousel"
   },
   "register": {
     "breadcrumb": "Home",
