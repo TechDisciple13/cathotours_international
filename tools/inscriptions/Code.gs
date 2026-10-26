@@ -11,6 +11,7 @@ function doPost(e) {
   }
   var secret = PropertiesService.getScriptProperties().getProperty('SECRET');
   if (!secret || body.secret !== secret) return reply({ ok: false, error: 'unauthorized' });
+  if (body.ping) return reply({ ok: true, ping: true }); // test de connexion sans écriture
 
   var tab = body.tab === 'Newsletter' ? 'Newsletter' : 'Inscriptions';
   var ss = SpreadsheetApp.getActiveSpreadsheet();
