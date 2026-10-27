@@ -250,5 +250,19 @@
         "text": "Dernière mise à jour : [date à compléter]"
       }
     }
+  },
+  "pages": {
+    "default": {
+      "intro": "[Introduction à fournir]",
+      "body": "[Contenu à fournir]",
+      "summary": "[Description à fournir]"
+    },
+    "registerCta": "S'inscrire à cet événement",
+    "learnMore": "En savoir plus",
+    "draftNotice": "Version provisoire : les mentions entre crochets doivent être complétées, et le texte validé par un juriste, avant la mise en ligne.",
+    "legal": {
+      "intro": "Informations légales relatives au site de Catho Tours International.",
+      "body": "## Éditeur du site\nCatho Tours International\n[Forme juridique, adresse du siège et numéro d'enregistrement : à compléter]\nContact : photo26.cathotoursinternational@gmail.com\n## Responsable de la publication\n[Nom et fonction : à compléter]\n## Hébergement\n[Nom, adresse et contact de l'hébergeur : à compléter]\n## Propriété intellectuelle\n[Conditions d'utilisation des textes, images et logos : à compléter]\n## Données personnelles\nLe traitement des données personnelles est décrit dans la politique de confidentialité."
+    }
   }
 }

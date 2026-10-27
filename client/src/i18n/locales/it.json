@@ -189,5 +189,14 @@
     "newsletterBefore": "Accetto di ricevere la newsletter. Vedi l'",
     "newsletterAfter": ".",
     "frOnly": "Questa informativa è per ora disponibile solo in francese."
+  },
+  "pages": {
+    "default": {
+      "intro": "[Introduzione da fornire]",
+      "body": "[Contenuto da fornire]",
+      "summary": "[Descrizione da fornire]"
+    },
+    "registerCta": "Iscriviti a questo evento",
+    "learnMore": "Scopri di più"
   }
 }

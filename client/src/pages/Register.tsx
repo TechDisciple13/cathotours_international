@@ -1,6 +1,6 @@
 import { useState, type ChangeEvent, type FormEvent, type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import PageHeader from '../components/PageHeader'
 import { countries, events, sizes } from '../config/registration'
 import { usePageTitle } from '../hooks/usePageTitle'
@@ -45,7 +45,9 @@ function Row({ id, label, error, optional, children }: { id: string; label: stri
 export default function Register() {
   const { t, i18n } = useTranslation()
   usePageTitle(t('register.title'), t('seo.register'))
-  const [values, setValues] = useState<Values>(initial)
+  const [params] = useSearchParams()
+  const preset = params.get('event') ?? ''
+  const [values, setValues] = useState<Values>(() => ({ ...initial, event: (events as readonly string[]).includes(preset) ? preset : '' }))
   const [touched, setTouched] = useState<Partial<Record<Key, boolean>>>({})
   const [submitted, setSubmitted] = useState(false)
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')

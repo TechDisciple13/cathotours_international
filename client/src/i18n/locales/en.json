@@ -189,5 +189,14 @@
     "newsletterBefore": "I agree to receive the newsletter. See the ",
     "newsletterAfter": ".",
     "frOnly": "This policy is currently available in French only."
+  },
+  "pages": {
+    "default": {
+      "intro": "[Introduction to be provided]",
+      "body": "[Content to be provided]",
+      "summary": "[Description to be provided]"
+    },
+    "registerCta": "Register for this event",
+    "learnMore": "Learn more"
   }
 }

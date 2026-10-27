@@ -189,5 +189,14 @@
     "newsletterBefore": "Acepto recibir el boletín. Consulta la ",
     "newsletterAfter": ".",
     "frOnly": "Esta política está disponible por ahora solo en francés."
+  },
+  "pages": {
+    "default": {
+      "intro": "[Introducción por aportar]",
+      "body": "[Contenido por aportar]",
+      "summary": "[Descripción por aportar]"
+    },
+    "registerCta": "Inscribirse a este evento",
+    "learnMore": "Saber más"
   }
 }

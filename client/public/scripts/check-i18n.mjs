@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs'
 
 const langs = ['fr', 'en', 'es', 'it']
 // Contenus de démonstration volontairement non traduits (repli sur le français).
-const DEMO = ['news.items.', 'testimonials.quote', 'testimonials.author', 'testimonials.role', 'privacy.sections.', 'privacy.draftNotice']
+const DEMO = ['news.items.', 'testimonials.quote', 'testimonials.author', 'testimonials.role', 'privacy.sections.', 'privacy.draftNotice', 'pages.draftNotice', 'pages.legal.']
 
 const flatten = (obj, prefix = '') =>
   Object.entries(obj).flatMap(([k, v]) => (typeof v === 'object' ? flatten(v, `${prefix}${k}.`) : [[`${prefix}${k}`, v]]))
