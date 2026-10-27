@@ -13,13 +13,6 @@ export default function Logo() {
         label="Logo"
         className="h-9 min-w-9 w-auto shrink-0 object-contain md:h-10 md:min-w-10 lg:h-14 lg:min-w-14"
       />
-      {!brand.logoIncludesName && (
-        <span className="text-[13px] font-semibold leading-tight text-brand-green md:text-[15px] lg:text-[20px]">
-          Catho Tours
-          <br />
-          International
-        </span>
-      )}
     </Link>
   )
 }
