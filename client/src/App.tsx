@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MainLayout from './layouts/MainLayout'
-import ComingSoon from './pages/ComingSoon'
-import { plannedRoutes } from './config/routes'
+import ContentPage from './pages/ContentPage'
+import Editions from './pages/Editions'
+import { pages } from './config/pages'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Partners from './pages/Partners'
@@ -17,8 +18,8 @@ export default function App() {
           <Route path="inscription" element={<Register />} />
           <Route path="politique-de-confidentialite" element={<Privacy />} />
           <Route path="partenaires" element={<Partners />} />
-          {plannedRoutes.map((path) => (
-            <Route key={path} path={path} element={<ComingSoon />} />
+          {pages.map((p) => (
+            <Route key={p.path} path={p.path.slice(1)} element={p.kind === 'editions' ? <Editions page={p} /> : <ContentPage page={p} />} />
           ))}
           <Route path="*" element={<NotFound />} />
         </Route>

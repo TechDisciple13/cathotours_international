@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer'
 import { config, smtpConfigured } from '../config.js'
+import { acknowledgement } from '../emails/acknowledgement.js'
 
 const oneLine = (s) => String(s).replace(/[\r\n]+/g, ' ').trim()
 const genderLabel = { female: 'Féminin', male: 'Masculin' }
@@ -21,18 +22,7 @@ export function buildInscriptionMessages(d) {
       ].join('\n'),
     })
   }
-  if (d.channel === 'email') {
-    messages.push({
-      to: d.email,
-      subject: `Votre préinscription - ${d.event}`,
-      text: [
-        `Bonjour ${d.firstNames},`, '',
-        `Nous avons bien reçu votre préinscription pour l'événement « ${d.event} ».`,
-        'Notre équipe reviendra vers vous par e-mail pour la suite.', '',
-        'Fraternellement,', 'Catho Tours International',
-      ].join('\n'),
-    })
-  }
+  if (d.channel === 'email') messages.push({ to: d.email, ...acknowledgement(d) })
   return messages
 }
 

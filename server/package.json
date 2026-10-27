@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "node --watch src/index.js",
     "start": "node src/index.js",
-    "test": "node --test tests/api.test.js",
+    "test": "node --test tests/api.test.js tests/emails.test.js",
     "check:config": "node scripts/check-config.js"
   },
   "dependencies": {

@@ -1,8 +1,9 @@
 import { ChevronRight } from 'lucide-react'
+import type { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
-interface Props { breadcrumb: string; title: string; intro?: string }
+interface Props { breadcrumb: string; title: string; intro?: ReactNode }
 
 export default function PageHeader({ breadcrumb, title, intro }: Props) {
   const { t } = useTranslation()

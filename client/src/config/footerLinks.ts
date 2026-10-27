@@ -5,7 +5,7 @@ export const discoverLinks: FooterLink[] = [
   { key: 'about', href: '/#about' },
   { key: 'editions', href: '/editions' },
   { key: 'partners', href: '/partenaires' },
-  { key: 'contact' },
+  { key: 'contact', href: '/contact' },
 ]
 export const activityLinks: FooterLink[] = [
   { key: 'editions', href: '/editions' },
@@ -13,5 +13,5 @@ export const activityLinks: FooterLink[] = [
   { key: 'universel', href: '/activites/universel' },
   { key: 'peleVelo', href: '/activites/pele-velo' },
 ]
-export const legalLinks: FooterLink[] = [{ key: 'privacy', href: '/politique-de-confidentialite' }, { key: 'notices' }]
+export const legalLinks: FooterLink[] = [{ key: 'privacy', href: '/politique-de-confidentialite' }, { key: 'notices', href: '/mentions-legales' }]
 export const contactEmail = 'photo26.cathotoursinternational@gmail.com'
