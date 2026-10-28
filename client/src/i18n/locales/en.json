@@ -32,7 +32,11 @@
       "allEditions": "Our editions",
       "aftercatho": "AfterCatho",
       "universel": "L'Universel",
-      "peleVelo": "Pélé Vélo"
+      "peleVelo": "Pélé Vélo",
+      "benin": "Benin",
+      "ghana": "Ghana",
+      "cotedivoire": "Ivory Coast",
+      "senegal": "Senegal"
     }
   },
   "hero": {
@@ -47,18 +51,27 @@
       "landmark": "Participants in front of an emblematic religious building"
     }
   },
-  "destinations": {
-    "title": "Our destinations",
-    "seeAll": "See all destinations",
+  "editions": {
+    "title": "Our editions",
+    "seeAll": "See all editions",
     "seeAllShort": "See all",
     "region": "West Africa",
     "items": {
-      "togo": "Togo",
       "benin": "Benin",
       "ghana": "Ghana",
-      "cotedivoire": "Ivory Coast"
+      "cotedivoire": "Ivory Coast",
+      "senegal": "Senegal"
     },
-    "imageAlt": "Illustration of the destination: {{name}}"
+    "imageAlt": "Illustration of the edition: {{name}}",
+    "soon": "Soon",
+    "gallery": "Featured photos",
+    "photoLabel": "Photo to be provided",
+    "photoAlt": "Photo of the {{name}} edition, no. {{n}}",
+    "testimonials": "Testimonials",
+    "seeMore": "See more testimonials",
+    "intro": "Discover the highlights of our edition: {{name}}. [Introduction to be completed]",
+    "soonTitle": "Next edition",
+    "soonText": "This edition is coming soon. The page is ready: photos and testimonials will be added once the edition has taken place."
   },
   "news": {
     "title": "Our latest news",
@@ -197,6 +210,9 @@
       "summary": "[Description to be provided]"
     },
     "registerCta": "Register for this event",
-    "learnMore": "Learn more"
+    "learnMore": "Learn more",
+    "editions": {
+      "intro": "The journeys we have made in Benin, Ghana and Ivory Coast, and Senegal coming soon."
+    }
   }
 }

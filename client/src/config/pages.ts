@@ -30,5 +30,3 @@ export const pages: PageDef[] = [
   { id: 'contact', path: '/contact', titleKey: 'footer.links.contact', kind: 'contact' },
   { id: 'legal', path: '/mentions-legales', titleKey: 'footer.legal.notices' },
 ]
-
-export const editionPages = pages.filter((p) => p.event)

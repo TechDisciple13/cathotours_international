@@ -62,7 +62,7 @@ export default function Navbar() {
               {open === g.key && (
                 <ul className="absolute left-0 top-full z-50 w-64 rounded-lg border border-black/10 bg-white py-2 shadow-lg">
                   {g.items.map((i) => (
-                    <li key={i.key}><Link to={i.href} className="block px-4 py-2 text-[13px] hover:bg-surface hover:text-brand-green">{t(`nav.items.${i.key}`)}</Link></li>
+                    <li key={i.key}><Link to={i.href} className="block px-4 py-2 text-[13px] hover:bg-surface hover:text-brand-green">{t(`nav.items.${i.key}`)}{i.soon && <span className="ml-2 rounded-full bg-brand-orange px-2 py-0.5 text-[10px] text-white">{t('editions.soon')}</span>}</Link></li>
                   ))}
                 </ul>
               )}
@@ -96,7 +96,7 @@ export default function Navbar() {
                     </button>
                     {acc === g.key && (
                       <ul className="pb-2 pl-3">
-                        {g.items.map((i) => <li key={i.key}><Link to={i.href} className="block py-2 text-[13px] text-ink/80">{t(`nav.items.${i.key}`)}</Link></li>)}
+                        {g.items.map((i) => <li key={i.key}><Link to={i.href} className="block py-2 text-[13px] text-ink/80">{t(`nav.items.${i.key}`)}{i.soon && <span className="ml-2 rounded-full bg-brand-orange px-2 py-0.5 text-[10px] text-white">{t('editions.soon')}</span>}</Link></li>)}
                       </ul>
                     )}
                   </>

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { usePageTitle } from '../hooks/usePageTitle'
-import Destinations from '../sections/Destinations'
+import EditionsSection from '../sections/Editionssection'
 import Hero from '../sections/Hero'
 import News from '../sections/News'
 import Newsletter from '../sections/Newsletter'
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Destinations />
+      <EditionsSection />
       <News />
       <Testimonials />
       <Newsletter />

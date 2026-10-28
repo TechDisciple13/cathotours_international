@@ -32,7 +32,11 @@
       "allEditions": "Le nostre edizioni",
       "aftercatho": "AfterCatho",
       "universel": "L'Universel",
-      "peleVelo": "Pélé Vélo"
+      "peleVelo": "Pélé Vélo",
+      "benin": "Benin",
+      "ghana": "Ghana",
+      "cotedivoire": "Costa d'Avorio",
+      "senegal": "Senegal"
     }
   },
   "hero": {
@@ -47,18 +51,27 @@
       "landmark": "Partecipanti davanti a un edificio religioso emblematico"
     }
   },
-  "destinations": {
-    "title": "Le nostre destinazioni",
-    "seeAll": "Vedi tutte le destinazioni",
+  "editions": {
+    "title": "Le nostre edizioni",
+    "seeAll": "Vedi tutte le edizioni",
     "seeAllShort": "Vedi tutte",
     "region": "Africa occidentale",
     "items": {
-      "togo": "Togo",
       "benin": "Benin",
       "ghana": "Ghana",
-      "cotedivoire": "Costa d'Avorio"
+      "cotedivoire": "Costa d'Avorio",
+      "senegal": "Senegal"
     },
-    "imageAlt": "Illustrazione della destinazione: {{name}}"
+    "imageAlt": "Illustrazione dell'edizione: {{name}}",
+    "soon": "Presto",
+    "gallery": "Foto in evidenza",
+    "photoLabel": "Foto da fornire",
+    "photoAlt": "Foto dell'edizione {{name}}, n. {{n}}",
+    "testimonials": "Testimonianze",
+    "seeMore": "Vedi altre testimonianze",
+    "intro": "Scopri i momenti salienti della nostra edizione: {{name}}. [Presentazione da completare]",
+    "soonTitle": "Prossima edizione",
+    "soonText": "Questa edizione arriverà presto. La pagina è pronta: foto e testimonianze saranno aggiunte dopo l'edizione."
   },
   "news": {
     "title": "Le nostre ultime notizie",
@@ -197,6 +210,9 @@
       "summary": "[Descrizione da fornire]"
     },
     "registerCta": "Iscriviti a questo evento",
-    "learnMore": "Scopri di più"
+    "learnMore": "Scopri di più",
+    "editions": {
+      "intro": "I viaggi che abbiamo compiuto in Benin, Ghana e Costa d'Avorio, e il Senegal in arrivo."
+    }
   }
 }

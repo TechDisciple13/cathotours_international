@@ -1,202 +1,218 @@
 {
   "common": {
     "brandName": "Catho Tours International",
-    "language": "Idioma",
-    "menu": "Abrir el menú",
-    "close": "Cerrar el menú",
-    "mainNav": "Navegación principal",
-    "mobileNav": "Navegación móvil",
-    "breadcrumb": "Ruta de navegación"
+    "language": "Language",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "breadcrumb": "Breadcrumb"
   },
   "nav": {
-    "register": "Inscribirse",
+    "register": "Register",
     "groups": {
-      "about": "Acerca de",
-      "activities": "Nuestras actividades",
-      "editions": "Nuestras ediciones",
-      "partners": "Socios"
+      "about": "About",
+      "activities": "Our activities",
+      "editions": "Our editions",
+      "partners": "Partners"
     },
     "items": {
-      "identity": "Nuestra identidad",
-      "history": "Nuestra historia",
-      "team": "Conoce al equipo",
-      "members": "Miembros y asociados",
-      "commitments": "Nuestros compromisos",
-      "testimonials": "Testimonios",
-      "volunteering": "Voluntariado",
-      "peacePrize": "Premio de la Paz",
-      "ecclesial": "Impacto eclesial católico e interreligioso",
-      "regional": "Programa regional",
-      "tourism": "Turismo",
-      "whereWeAre": "Dónde estamos",
-      "allEditions": "Nuestras ediciones",
+      "identity": "Our identity",
+      "history": "Our history",
+      "team": "Meet the team",
+      "members": "Members and associates",
+      "commitments": "Our commitments",
+      "testimonials": "Testimonials",
+      "volunteering": "Volunteering",
+      "peacePrize": "Peace Prize",
+      "ecclesial": "Catholic and interreligious ecclesial impact",
+      "regional": "Regional program",
+      "tourism": "Tourism",
+      "whereWeAre": "Where we are",
+      "allEditions": "Our editions",
       "aftercatho": "AfterCatho",
       "universel": "L'Universel",
-      "peleVelo": "Pélé Vélo"
+      "peleVelo": "Pélé Vélo",
+      "benin": "Benin",
+      "ghana": "Ghana",
+      "cotedivoire": "Ivory Coast",
+      "senegal": "Senegal"
     }
   },
   "hero": {
-    "eyebrow": "Turismo · Fe · Fraternidad",
-    "title": "Viajemos juntos, en la fe y la fraternidad",
-    "text": "Descubre nuevos destinos, comparte culturas y vive encuentros auténticos. Catho Tours International te invita a construir una fraternidad duradera a través del turismo.",
-    "ctaPrimary": "Descubrir nuestras ediciones",
-    "ctaSecondary": "Nuestra misión",
+    "eyebrow": "Tourism · Faith · Fraternity",
+    "title": "Let's travel together, in faith and fraternity",
+    "text": "Discover new destinations, share cultures and enjoy authentic encounters. Catho Tours International invites you to build lasting fraternity through tourism.",
+    "ctaPrimary": "Discover our editions",
+    "ctaSecondary": "Our mission",
     "imageAlt": {
-      "group": "Jóvenes participantes sonrientes durante un viaje de Catho Tours International",
-      "culture": "Encuentro intercultural entre participantes y habitantes",
-      "landmark": "Participantes frente a un edificio religioso emblemático"
+      "group": "Smiling young participants on a Catho Tours International trip",
+      "culture": "Intercultural encounter between participants and local residents",
+      "landmark": "Participants in front of an emblematic religious building"
     }
   },
-  "destinations": {
-    "title": "Nuestros destinos",
-    "seeAll": "Ver todos los destinos",
-    "seeAllShort": "Ver todos",
-    "region": "África Occidental",
+  "editions": {
+    "title": "Our editions",
+    "seeAll": "See all editions",
+    "seeAllShort": "See all",
+    "region": "West Africa",
     "items": {
-      "togo": "Togo",
-      "benin": "Benín",
+      "benin": "Benin",
       "ghana": "Ghana",
-      "cotedivoire": "Costa de Marfil"
+      "cotedivoire": "Ivory Coast",
+      "senegal": "Senegal"
     },
-    "imageAlt": "Ilustración del destino: {{name}}"
+    "imageAlt": "Illustration of the edition: {{name}}",
+    "soon": "Soon",
+    "gallery": "Featured photos",
+    "photoLabel": "Photo to be provided",
+    "photoAlt": "Photo of the {{name}} edition, no. {{n}}",
+    "testimonials": "Testimonials",
+    "seeMore": "See more testimonials",
+    "intro": "Discover the highlights of our edition: {{name}}. [Introduction to be completed]",
+    "soonTitle": "Next edition",
+    "soonText": "This edition is coming soon. The page is ready: photos and testimonials will be added once the edition has taken place."
   },
   "news": {
-    "title": "Nuestras últimas noticias",
-    "seeAll": "Ver todas las noticias",
-    "seeAllShort": "Ver todas",
+    "title": "Our latest news",
+    "seeAll": "See all news",
+    "seeAllShort": "See all",
     "categories": {
-      "testimonials": "Testimonios",
-      "news": "Noticias",
-      "story": "Relato de viaje"
+      "testimonials": "Testimonials",
+      "news": "News",
+      "story": "Travel story"
     },
-    "imageAlt": "Ilustración del artículo: {{title}}"
+    "imageAlt": "Illustration of the article: {{title}}"
   },
   "testimonials": {
-    "title": "La fraternidad en movimiento",
-    "seeAll": "Ver todos los testimonios",
-    "seeAllShort": "Ver todos",
-    "avatarAlt": "Foto del participante",
-    "imageAlt": "Viajeros caminando juntos durante una edición de Catho Tours International"
+    "title": "Fraternity in motion",
+    "seeAll": "See all testimonials",
+    "seeAllShort": "See all",
+    "avatarAlt": "Photo of the participant",
+    "imageAlt": "Travellers walking together during a Catho Tours International edition"
   },
   "newsletter": {
-    "title": "Recibe nuestras noticias y próximas ediciones",
-    "text": "Suscríbete a nuestro boletín para no perderte nuestros viajes, eventos y testimonios.",
-    "placeholder": "Tu correo electrónico",
-    "emailLabel": "Correo electrónico para el boletín",
-    "button": "Suscribirse",
-    "errorEmpty": "Introduce tu correo electrónico.",
-    "errorInvalid": "Este correo electrónico parece incorrecto. Compruébalo e inténtalo de nuevo.",
-    "success": "Gracias, tu dirección ha sido registrada.",
-    "errorConsent": "Marca la casilla para suscribirte."
+    "title": "Receive our news and upcoming editions",
+    "text": "Subscribe to our newsletter to never miss our trips, events and testimonials.",
+    "placeholder": "Your e-mail address",
+    "emailLabel": "E-mail address for the newsletter",
+    "button": "Subscribe",
+    "errorEmpty": "Please enter your e-mail address.",
+    "errorInvalid": "This e-mail address looks incorrect. Please check it and try again.",
+    "success": "Thank you, your address has been recorded.",
+    "errorConsent": "Tick the box to subscribe."
   },
   "footer": {
-    "tagline": "Turismo, fe y fraternidad en África",
-    "discover": "Descubrir",
-    "activities": "Nuestras actividades",
-    "contact": "Contáctanos",
+    "tagline": "Tourism, faith and fraternity in Africa",
+    "discover": "Discover",
+    "activities": "Our activities",
+    "contact": "Contact us",
     "links": {
-      "home": "Inicio",
-      "about": "Acerca de",
-      "editions": "Nuestras ediciones",
-      "partners": "Socios",
-      "contact": "Contacto",
+      "home": "Home",
+      "about": "About",
+      "editions": "Our editions",
+      "partners": "Partners",
+      "contact": "Contact",
       "aftercatho": "AfterCatho",
       "universel": "L'Universel",
       "peleVelo": "Pélé Vélo"
     },
     "legal": {
-      "privacy": "Política de privacidad",
-      "notices": "Aviso legal"
+      "privacy": "Privacy policy",
+      "notices": "Legal notices"
     },
-    "copyright": "© 2026 Catho Tours International. Todos los derechos reservados.",
-    "social": "Redes sociales",
-    "socialOn": "Catho Tours International en {{network}}"
+    "copyright": "© 2026 Catho Tours International. All rights reserved.",
+    "social": "Social networks",
+    "socialOn": "Catho Tours International on {{network}}"
   },
   "comingSoon": {
-    "title": "Próximamente",
-    "text": "Esta página está en preparación. Gracias por tu paciencia.",
-    "back": "Volver al inicio"
+    "title": "Coming soon",
+    "text": "This page is being prepared. Thank you for your patience.",
+    "back": "Back to home"
   },
   "partners": {
-    "title": "Socios",
-    "breadcrumb": "Inicio",
-    "intro": "Catho Tours International avanza gracias al compromiso de socios que comparten sus valores de fe, fraternidad y descubrimiento.",
-    "listTitle": "Quienes nos acompañan",
-    "logoAlt": "Logotipo del socio {{n}}",
-    "logoLabel": "Logotipo por aportar",
-    "joinTitle": "Ser socio",
-    "joinText": "¿Quieres apoyar nuestras actividades o construir un proyecto con nosotros? Escríbenos.",
-    "joinButton": "Escríbenos"
+    "title": "Partners",
+    "breadcrumb": "Home",
+    "intro": "Catho Tours International moves forward thanks to partners who share its values of faith, fraternity and discovery.",
+    "listTitle": "Those who support us",
+    "logoAlt": "Logo of partner {{n}}",
+    "logoLabel": "Logo to be provided",
+    "joinTitle": "Become a partner",
+    "joinText": "Would you like to support our activities or build a project with us? Write to us.",
+    "joinButton": "Write to us"
   },
   "carousel": {
-    "prev": "Anterior",
-    "next": "Siguiente",
-    "slide": "Diapositiva {{n}} de {{total}}",
-    "goTo": "Ir a la diapositiva {{n}} de {{total}}",
-    "roleDescription": "carrusel"
+    "prev": "Previous",
+    "next": "Next",
+    "slide": "Slide {{n}} of {{total}}",
+    "goTo": "Go to slide {{n}} of {{total}}",
+    "roleDescription": "carousel"
   },
   "register": {
-    "breadcrumb": "Inicio",
-    "title": "Preinscripción",
-    "intro": "Rellena tus datos para preinscribirte en uno de nuestros eventos. Los campos opcionales están indicados.",
-    "lastName": "Apellido",
-    "firstNames": "Nombres",
-    "gender": "Sexo",
-    "female": "Femenino",
-    "male": "Masculino",
-    "role": "Función",
-    "size": "Talla",
-    "phone": "Teléfono",
-    "countryCode": "Prefijo del país",
-    "email": "Correo electrónico",
-    "event": "Evento",
-    "eventPlaceholder": "Elegir un evento",
-    "select": "Elegir",
-    "channel": "Canal de confirmación",
-    "channelEmail": "Correo electrónico",
+    "breadcrumb": "Home",
+    "title": "Pre-registration",
+    "intro": "Fill in your details to pre-register for one of our events. Optional fields are indicated.",
+    "lastName": "Last name",
+    "firstNames": "First names",
+    "gender": "Sex",
+    "female": "Female",
+    "male": "Male",
+    "role": "Role",
+    "size": "Size",
+    "phone": "Phone",
+    "countryCode": "Country code",
+    "email": "E-mail address",
+    "event": "Event",
+    "eventPlaceholder": "Choose an event",
+    "select": "Choose",
+    "channel": "Confirmation channel",
+    "channelEmail": "E-mail",
     "channelWhatsapp": "WhatsApp",
-    "whatsappNote": "La confirmación por WhatsApp se envía manualmente al número indicado.",
-    "optional": "opcional",
-    "required": "Este campo es obligatorio.",
-    "invalidEmail": "Introduce un correo electrónico válido.",
-    "invalidPhone": "Introduce un número válido (de 6 a 12 dígitos).",
-    "submit": "Enviar mi preinscripción",
-    "success": "Gracias, tu preinscripción ha sido registrada.",
-    "consentRequired": "Debes aceptar para enviar el formulario."
+    "whatsappNote": "WhatsApp confirmation is sent manually to the number provided.",
+    "optional": "optional",
+    "required": "This field is required.",
+    "invalidEmail": "Enter a valid e-mail address.",
+    "invalidPhone": "Enter a valid number (6 to 12 digits).",
+    "submit": "Send my pre-registration",
+    "success": "Thank you, your pre-registration has been recorded.",
+    "consentRequired": "You must agree to submit the form."
   },
   "api": {
-    "sending": "Enviando…",
-    "errorServer": "No se pudo completar el envío. Inténtalo de nuevo en unos instantes.",
-    "errorRateLimit": "Demasiados intentos. Inténtalo de nuevo en unos minutos.",
-    "errorNetwork": "No se puede conectar. Comprueba tu red e inténtalo de nuevo."
+    "sending": "Sending…",
+    "errorServer": "Sending failed. Please try again in a few moments.",
+    "errorRateLimit": "Too many attempts. Please try again in a few minutes.",
+    "errorNetwork": "Unable to connect. Check your network and try again."
   },
   "notFound": {
-    "title": "Página no encontrada",
-    "text": "La dirección solicitada no existe o ha sido movida.",
-    "back": "Volver al inicio"
+    "title": "Page not found",
+    "text": "The requested address does not exist or has been moved.",
+    "back": "Back to home"
   },
   "seo": {
-    "home": "Catho Tours International: turismo, fe y fraternidad en África. Viajes, encuentros interculturales y movilidad de los jóvenes.",
-    "partners": "Descubre a los socios de Catho Tours International, que apoyan el turismo, la fe y la fraternidad en África.",
-    "register": "Preinscríbete en un evento de Catho Tours International: AfterCatho, L'Universel o Pélé Vélo.",
-    "privacy": "Política de privacidad de Catho Tours International: datos recogidos, finalidades, conservación y tus derechos."
+    "home": "Catho Tours International: tourism, faith and fraternity in Africa. Trips, intercultural encounters and youth mobility.",
+    "partners": "Discover the partners of Catho Tours International, who support tourism, faith and fraternity in Africa.",
+    "register": "Pre-register for a Catho Tours International event: AfterCatho, L'Universel or Pélé Vélo.",
+    "privacy": "Privacy policy of Catho Tours International: data collected, purposes, retention and your rights."
   },
   "privacy": {
-    "title": "Política de privacidad",
-    "consentBefore": "He leído la ",
-    "consentLink": "política de privacidad",
-    "consentAfter": " y acepto que mis datos se traten para gestionar mi preinscripción.",
-    "newsletterBefore": "Acepto recibir el boletín. Consulta la ",
+    "title": "Privacy policy",
+    "consentBefore": "I have read the ",
+    "consentLink": "privacy policy",
+    "consentAfter": " and I agree to my data being processed to manage my pre-registration.",
+    "newsletterBefore": "I agree to receive the newsletter. See the ",
     "newsletterAfter": ".",
-    "frOnly": "Esta política está disponible por ahora solo en francés."
+    "frOnly": "This policy is currently available in French only."
   },
   "pages": {
     "default": {
-      "intro": "[Introducción por aportar]",
-      "body": "[Contenido por aportar]",
-      "summary": "[Descripción por aportar]"
+      "intro": "[Introduction to be provided]",
+      "body": "[Content to be provided]",
+      "summary": "[Description to be provided]"
     },
-    "registerCta": "Inscribirse a este evento",
-    "learnMore": "Saber más"
+    "registerCta": "Register for this event",
+    "learnMore": "Learn more",
+    "editions": {
+      "intro": "The journeys we have made in Benin, Ghana and Ivory Coast, and Senegal coming soon."
+    }
   }
 }

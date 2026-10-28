@@ -32,7 +32,11 @@
       "allEditions": "Nos éditions",
       "aftercatho": "AfterCatho",
       "universel": "L'Universel",
-      "peleVelo": "Pélé Vélo"
+      "peleVelo": "Pélé Vélo",
+      "benin": "Bénin",
+      "ghana": "Ghana",
+      "cotedivoire": "Côte d'Ivoire",
+      "senegal": "Sénégal"
     }
   },
   "hero": {
@@ -47,18 +51,27 @@
       "landmark": "Participants devant un édifice religieux emblématique"
     }
   },
-  "destinations": {
-    "title": "Nos destinations",
-    "seeAll": "Voir toutes les destinations",
+  "editions": {
+    "title": "Nos éditions",
+    "seeAll": "Voir toutes les éditions",
     "seeAllShort": "Voir toutes",
     "region": "Afrique de l'Ouest",
     "items": {
-      "togo": "Togo",
       "benin": "Bénin",
       "ghana": "Ghana",
-      "cotedivoire": "Côte d'Ivoire"
+      "cotedivoire": "Côte d'Ivoire",
+      "senegal": "Sénégal"
     },
-    "imageAlt": "Illustration de la destination : {{name}}"
+    "imageAlt": "Illustration de l'édition : {{name}}",
+    "soon": "Bientôt",
+    "gallery": "Photos phares",
+    "photoLabel": "Photo à fournir",
+    "photoAlt": "Photo de l'édition {{name}}, n°{{n}}",
+    "testimonials": "Témoignages",
+    "seeMore": "Voir plus de témoignages",
+    "intro": "Retrouvez ici les temps forts de notre édition : {{name}}. [Présentation à compléter]",
+    "soonTitle": "Prochaine édition",
+    "soonText": "Cette édition arrive bientôt. La page est prête : les photos et les témoignages seront ajoutés dès que l'édition aura eu lieu."
   },
   "news": {
     "title": "Nos dernières actualités",
@@ -263,6 +276,9 @@
     "legal": {
       "intro": "Informations légales relatives au site de Catho Tours International.",
       "body": "## Éditeur du site\nCatho Tours International\n[Forme juridique, adresse du siège et numéro d'enregistrement : à compléter]\nContact : photo26.cathotoursinternational@gmail.com\n## Responsable de la publication\n[Nom et fonction : à compléter]\n## Hébergement\n[Nom, adresse et contact de l'hébergeur : à compléter]\n## Propriété intellectuelle\n[Conditions d'utilisation des textes, images et logos : à compléter]\n## Données personnelles\nLe traitement des données personnelles est décrit dans la politique de confidentialité."
+    },
+    "editions": {
+      "intro": "Les voyages que nous avons effectués au Bénin, au Ghana et en Côte d'Ivoire, et le Sénégal qui arrive bientôt."
     }
   }
 }
