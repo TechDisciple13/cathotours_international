@@ -89,7 +89,10 @@
     "seeAll": "See all testimonials",
     "seeAllShort": "See all",
     "avatarAlt": "Photo of the participant",
-    "imageAlt": "Travellers walking together during a Catho Tours International edition"
+    "imageAlt": "Travellers walking together during a Catho Tours International edition",
+    "filterAll": "All",
+    "filterLabel": "Filter by edition",
+    "empty": "No testimonials for this edition yet."
   },
   "newsletter": {
     "title": "Receive our news and upcoming editions",
@@ -213,6 +216,9 @@
     "learnMore": "Learn more",
     "editions": {
       "intro": "The journeys we have made in Benin, Ghana and Ivory Coast, and Senegal coming soon."
+    },
+    "testimonials": {
+      "intro": "Words from those who travelled with us."
     }
   }
 }

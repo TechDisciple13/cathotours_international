@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound'
 import Partners from './pages/Partners'
 import Privacy from './pages/Privacy'
 import Register from './pages/Register'
+import Testimonials from './pages/Testimonials'
 
 export default function App() {
   return (
@@ -20,7 +21,7 @@ export default function App() {
           <Route path="politique-de-confidentialite" element={<Privacy />} />
           <Route path="partenaires" element={<Partners />} />
           {pages.map((p) => (
-            <Route key={p.path} path={p.path.slice(1)} element={p.kind === 'editions' ? <Editions page={p} /> : <ContentPage page={p} />} />
+            <Route key={p.path} path={p.path.slice(1)} element={p.kind === 'editions' ? <Editions page={p} /> : p.kind === 'testimonials' ? <Testimonials page={p} /> : <ContentPage page={p} />} />
           ))}
           <Route path="editions/:slug" element={<Edition />} />
           <Route path="*" element={<NotFound />} />

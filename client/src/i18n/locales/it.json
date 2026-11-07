@@ -89,7 +89,10 @@
     "seeAll": "Vedi tutte le testimonianze",
     "seeAllShort": "Vedi tutte",
     "avatarAlt": "Foto del partecipante",
-    "imageAlt": "Viaggiatori che camminano insieme durante un'edizione di Catho Tours International"
+    "imageAlt": "Viaggiatori che camminano insieme durante un'edizione di Catho Tours International",
+    "filterAll": "Tutte",
+    "filterLabel": "Filtra per edizione",
+    "empty": "Ancora nessuna testimonianza per questa edizione."
   },
   "newsletter": {
     "title": "Ricevi le nostre novità e le prossime edizioni",
@@ -213,6 +216,9 @@
     "learnMore": "Scopri di più",
     "editions": {
       "intro": "I viaggi che abbiamo compiuto in Benin, Ghana e Costa d'Avorio, e il Senegal in arrivo."
+    },
+    "testimonials": {
+      "intro": "Le parole di chi ha viaggiato con noi."
     }
   }
 }

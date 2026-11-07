@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { Link, useParams } from 'react-router-dom'
 import ImageSlot from '../components/ImageSlot'
 import PageHeader from '../components/PageHeader'
+import TestimonialCard from '../components/TestimonialCard'
 import { editions, PHOTOS_PER_EDITION } from '../config/edition'
 import { testimonials } from '../config/testimonials'
 import { usePageTitle } from '../hooks/usePageTitle'
@@ -15,6 +16,9 @@ export default function Edition() {
   const name = edition ? t(`editions.items.${edition.key}`) : ''
   usePageTitle(name)
   if (!edition) return <NotFound />
+  // Tant qu'aucun témoignage n'est rattaché à ce pays, les emplacements neutres s'affichent.
+  const own = testimonials.filter((x) => x.edition === edition.key)
+  const shown = (own.length ? own : testimonials).slice(0, 2)
 
   return (
     <>
@@ -47,22 +51,9 @@ export default function Edition() {
           <section className="mt-8 md:mt-12">
             <h2 className="text-lg font-semibold text-brand-green md:text-2xl">{t('editions.testimonials')}</h2>
             <ul className="mt-4 grid gap-4 md:mt-6 md:grid-cols-2 md:gap-6">
-              {testimonials.slice(0, 2).map((item) => (
-                <li key={item.id}>
-                  <figure className="flex h-full items-center gap-4 rounded-lg border border-black/5 bg-white p-4 shadow-sm md:p-6">
-                    <ImageSlot src={item.avatar} alt={t('testimonials.avatarAlt')} label="Photo" className="size-14 shrink-0 rounded-full md:size-24" />
-                    <div>
-                      <blockquote className="text-sm text-ink/80">{item.quote ?? t('testimonials.quote')}</blockquote>
-                      <figcaption className="mt-2 text-xs">
-                        <span className="font-semibold">{item.author ?? t('testimonials.author')}</span>
-                        <span className="block text-ink/70">{item.role ?? t('testimonials.role')}</span>
-                      </figcaption>
-                    </div>
-                  </figure>
-                </li>
-              ))}
+              {shown.map((item) => <li key={item.id}><TestimonialCard item={item} /></li>)}
             </ul>
-            <Link to="/temoignages" className="mt-6 inline-block rounded-full border border-brand-green px-6 py-2.5 text-[13px] font-medium text-brand-green hover:bg-brand-green hover:text-white">{t('editions.seeMore')}</Link>
+            <Link to={own.length ? `/temoignages?edition=${edition.slug}` : '/temoignages'} className="mt-6 inline-block rounded-full border border-brand-green px-6 py-2.5 text-[13px] font-medium text-brand-green hover:bg-brand-green hover:text-white">{t('editions.seeMore')}</Link>
           </section>
         )}
 

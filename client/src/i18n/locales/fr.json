@@ -107,7 +107,10 @@
     "author": "Nom du participant",
     "role": "Édition à confirmer",
     "avatarAlt": "Photo du participant",
-    "imageAlt": "Voyageurs marchant ensemble lors d'une édition Catho Tours International"
+    "imageAlt": "Voyageurs marchant ensemble lors d'une édition Catho Tours International",
+    "filterAll": "Tous",
+    "filterLabel": "Filtrer par édition",
+    "empty": "Aucun témoignage pour cette édition pour le moment."
   },
   "newsletter": {
     "title": "Recevez nos nouvelles et prochaines éditions",
@@ -279,6 +282,9 @@
     },
     "editions": {
       "intro": "Les voyages que nous avons effectués au Bénin, au Ghana et en Côte d'Ivoire, et le Sénégal qui arrive bientôt."
+    },
+    "testimonials": {
+      "intro": "Les témoignages de celles et ceux qui ont voyagé avec nous."
     }
   }
 }

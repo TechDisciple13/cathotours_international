@@ -6,7 +6,7 @@ export interface PageDef {
   id: string
   path: string
   titleKey: string
-  kind?: 'editions' | 'contact'
+  kind?: 'editions' | 'contact' | 'testimonials'
   event?: string
 }
 
@@ -15,7 +15,7 @@ export const pages: PageDef[] = [
   { id: 'team', path: '/equipe', titleKey: 'nav.items.team' },
   { id: 'members', path: '/membres', titleKey: 'nav.items.members' },
   { id: 'commitments', path: '/engagements', titleKey: 'nav.items.commitments' },
-  { id: 'testimonials', path: '/temoignages', titleKey: 'nav.items.testimonials' },
+  { id: 'testimonials', path: '/temoignages', titleKey: 'nav.items.testimonials', kind: 'testimonials' },
   { id: 'volunteering', path: '/volontarisme', titleKey: 'nav.items.volunteering' },
   { id: 'peacePrize', path: '/prix-de-la-paix', titleKey: 'nav.items.peacePrize' },
   { id: 'ecclesial', path: '/impact-ecclesial', titleKey: 'nav.items.ecclesial' },
