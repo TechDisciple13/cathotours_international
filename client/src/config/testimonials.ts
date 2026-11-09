@@ -1,6 +1,7 @@
 // Emplacements de témoignages : à remplacer par les témoignages validés.
 // Renseigner quote, author et role pour afficher un vrai témoignage ; sinon le texte provisoire s'affiche.
 import type { Edition } from './edition'
+import { img } from './images'
 
 export interface Testimonial {
   id: number
@@ -14,6 +15,6 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [1, 2, 3, 4].map((id) => ({
   id,
-  avatar: `/assets/images/temoignage-participant-${id}.jpg`,
-  image: `/assets/images/temoignage-voyageurs-${id}.jpg`,
+  avatar: img.portrait(id),
+  image: img.scene(id),
 }))

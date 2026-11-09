@@ -4,6 +4,7 @@ import ImageSlot from '../components/ImageSlot'
 import PageHeader from '../components/PageHeader'
 import TestimonialCard from '../components/TestimonialCard'
 import { editions, PHOTOS_PER_EDITION } from '../config/edition'
+import { img } from '../config/images'
 import { testimonials } from '../config/testimonials'
 import { usePageTitle } from '../hooks/usePageTitle'
 import { highlight } from '../utils/highlight'
@@ -41,7 +42,7 @@ export default function Edition() {
           <ul className="mt-4 grid grid-cols-2 gap-3 md:mt-6 md:grid-cols-4 md:gap-5">
             {Array.from({ length: PHOTOS_PER_EDITION }, (_, i) => i + 1).map((n) => (
               <li key={n}>
-                <ImageSlot src={`/assets/images/editions/${edition.slug}/photo-${n}.jpg`} alt={t('editions.photoAlt', { name, n })} label={t('editions.photoLabel')} className="aspect-[4/3] w-full rounded-lg" />
+                <ImageSlot src={img.editionPhoto(edition.code, n)} alt={t('editions.photoAlt', { name, n })} label={t('editions.photoLabel')} className="aspect-[4/3] w-full rounded-lg" />
               </li>
             ))}
           </ul>

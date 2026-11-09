@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import ImageSlot from '../components/ImageSlot'
 import { heroMarkers } from '../config/heroMarkers'
+import { img } from '../config/images'
 
 const tones = { green: 'bg-brand-green', orange: 'bg-brand-orange' }
 
@@ -35,7 +36,7 @@ export default function Hero() {
 
         <div className="relative -mx-5 aspect-[230/177] w-[calc(100%+2.5rem)] md:-ml-12 md:mr-0 md:aspect-[415/260] md:w-[calc(100%+3rem)]">
           <div className="absolute inset-x-0 top-0 aspect-[1586/815]" aria-hidden="true">
-            <img src="/assets/images/carte-monde.png" alt="" className="size-full" />
+            <img src={img.map} alt="" className="size-full" />
             {heroMarkers.map((m, i) => (
               <span
                 key={i}
@@ -46,19 +47,19 @@ export default function Hero() {
           </div>
 
           <ImageSlot
-            src="/assets/images/hero-groupe-jeunes.jpg"
+            src={img.hero[0]}
             alt={t('hero.imageAlt.group')}
             label="Image 1 à fournir"
             className="absolute left-[40%] top-[26%] w-[30%] aspect-[1.25] rounded-md shadow-md md:left-[52%] md:top-[4%] md:w-[32%] md:aspect-[1.45] md:rounded-lg"
           />
           <ImageSlot
-            src="/assets/images/hero-rencontre-culturelle.jpg"
+            src={img.hero[1]}
             alt={t('hero.imageAlt.culture')}
             label="Image 2 à fournir"
             className="absolute left-[4%] top-[55%] w-[40%] aspect-[1.4] rounded-md shadow-md md:left-[35%] md:top-[56%] md:w-[30%] md:aspect-[1.25] md:rounded-lg"
           />
           <ImageSlot
-            src="/assets/images/hero-edifice-religieux.jpg"
+            src={img.hero[2]}
             alt={t('hero.imageAlt.landmark')}
             label="Image 3 à fournir"
             className="absolute left-[48%] top-[53%] w-[42%] aspect-[1.4] rounded-md shadow-md md:left-[68%] md:top-[38%] md:w-[28%] md:aspect-square md:rounded-lg"

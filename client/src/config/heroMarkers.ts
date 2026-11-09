@@ -6,7 +6,7 @@ export interface MapMarker {
   tone: MarkerTone
 }
 
-// Positions en % de la carte (carte-monde.png). Provisoires : liste des pays à confirmer.
+// Positions en % de la carte (map.png). Provisoires : liste des pays à confirmer.
 export const heroMarkers: MapMarker[] = [
   { x: 19.5, y: 26.0, tone: 'green' },
   { x: 45.6, y: 33.9, tone: 'green' },
