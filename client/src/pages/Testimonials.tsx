@@ -1,40 +1,36 @@
 import { useTranslation } from 'react-i18next'
-import { Link, useSearchParams } from 'react-router-dom'
-import PageHeader from '../components/PageHeader'
-import TestimonialCard from '../components/TestimonialCard'
-import { editions } from '../config/edition'
-import type { PageDef } from '../config/pages'
+import DotsCarousel from '../components/DotsCarousel'
+import ImageSlot from '../components/ImageSlot'
+import SectionHeader from '../components/SectionHeader'
 import { testimonials } from '../config/testimonials'
-import { usePageTitle } from '../hooks/usePageTitle'
 
-const chip = 'rounded-full border px-4 py-1.5 text-[13px] font-medium'
-
-export default function Testimonials({ page }: { page: PageDef }) {
+export default function Testimonials() {
   const { t } = useTranslation()
-  const title = t(page.titleKey)
-  usePageTitle(title)
-  const [params] = useSearchParams()
-  const current = editions.find((e) => e.slug === params.get('edition'))
-  const list = current ? testimonials.filter((x) => x.edition === current.key) : testimonials
+
+  const slides = testimonials.slice(0, 4).map((item) => (
+    <div key={item.id} className="grid gap-4 md:grid-cols-2 md:gap-6">
+      <figure className="flex flex-col justify-center rounded-lg border border-black/5 bg-white p-3 shadow-sm md:p-6">
+        <div className="flex items-center gap-4">
+          <ImageSlot src={item.avatar} alt={t('testimonials.avatarAlt')} label="Photo" className="size-14 shrink-0 rounded-full md:size-[120px]" />
+          <div>
+            <blockquote className="text-xs text-ink/80 md:text-[15px]">{item.quote ?? t('testimonials.quote')}</blockquote>
+            <figcaption className="mt-2 text-[10px] md:text-xs">
+              <span className="font-semibold">{item.author ?? t('testimonials.author')}</span>
+              <span className="block text-ink/70">{item.role ?? t('testimonials.role')}</span>
+            </figcaption>
+          </div>
+        </div>
+      </figure>
+      <ImageSlot src={item.image} alt={t('testimonials.imageAlt')} label="Image à fournir" className="aspect-[19/4] w-full rounded-lg md:aspect-auto md:h-full md:min-h-44" />
+    </div>
+  ))
 
   return (
-    <>
-      <PageHeader breadcrumb={t('register.breadcrumb')} title={title} intro={t('pages.testimonials.intro')} />
-      <section className="mx-auto max-w-[1440px] px-5 py-8 md:px-10 md:py-12 xl:px-20">
-        <nav aria-label={t('testimonials.filterLabel')} className="flex flex-wrap gap-2">
-          <Link to="/temoignages" aria-current={!current ? 'page' : undefined} className={`${chip} ${!current ? 'border-brand-green bg-brand-green text-white' : 'border-brand-green text-brand-green hover:bg-brand-green/10'}`}>{t('testimonials.filterAll')}</Link>
-          {editions.filter((e) => !e.soon).map((e) => (
-            <Link key={e.key} to={`/temoignages?edition=${e.slug}`} aria-current={current?.key === e.key ? 'page' : undefined} className={`${chip} ${current?.key === e.key ? 'border-brand-green bg-brand-green text-white' : 'border-brand-green text-brand-green hover:bg-brand-green/10'}`}>
-              {t(`editions.items.${e.key}`)}
-            </Link>
-          ))}
-        </nav>
-        {list.length ? (
-          <ul className="mt-6 grid gap-4 md:grid-cols-2 md:gap-6">
-            {list.map((item) => <li key={item.id}><TestimonialCard item={item} /></li>)}
-          </ul>
-        ) : <p className="mt-8 text-sm text-ink/70">{t('testimonials.empty')}</p>}
-      </section>
-    </>
+    <section className="mx-auto max-w-[1440px] px-5 py-5 md:px-10 xl:px-20 md:py-7">
+      <SectionHeader to="/temoignages" title={t('testimonials.title')} seeAll={t('testimonials.seeAll')} seeAllShort={t('testimonials.seeAllShort')} />
+      <div className="mt-4 md:mt-6">
+        <DotsCarousel label={t('testimonials.title')} slides={slides} />
+      </div>
+    </section>
   )
 }

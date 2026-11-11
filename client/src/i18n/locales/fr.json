@@ -18,7 +18,6 @@
     },
     "items": {
       "identity": "Notre identité",
-      "history": "Notre histoire",
       "team": "Rencontrer l'équipe",
       "members": "Membres et associés",
       "commitments": "Nos engagements",
@@ -44,7 +43,6 @@
     "title": "Voyageons ensemble, dans la foi et la fraternité",
     "text": "Découvrez de nouvelles destinations, partagez des cultures et vivez des rencontres authentiques. Catho Tours International vous invite à construire une fraternité durable à travers le tourisme.",
     "ctaPrimary": "Découvrir nos éditions",
-    "ctaSecondary": "Notre mission",
     "imageAlt": {
       "group": "Jeunes participants souriants lors d'un voyage Catho Tours International",
       "culture": "Rencontre interculturelle entre participants et habitants",
@@ -84,17 +82,18 @@
     },
     "items": {
       "n1": {
-        "title": "Titre de l'actualité principale (démonstration)",
-        "excerpt": "Extrait de démonstration, à remplacer par le contenu officiel validé."
+        "title": "CathoTours International met le cap sur le Sénégal : une aventure culturelle, spirituelle et humaine du 19 au 27 juillet 2027",
+        "excerpt": "Fidèle à sa vision, CathoTours International entend faire de ce rendez-vous un espace de rencontre, d'ouverture et de fraternité. Au-delà des destinations visitées, l'initiative met l'accent sur les relations humaines, le partage d'expériences et la découverte interculturelle. Cette démarche s'inscrit dans la vision de l'organisation : promouvoir un tourisme qui rassemble, éduque et rapproche les peuples, tout en donnant aux participants l'occasion de vivre des moments forts sur les plans humain, culturel et spirituel.Les préinscriptions sont ouvertes. Les personnes intéressées peuvent dès à présent manifester leur intérêt pour cette aventure en procédant à une préinscription fixée à 50 000 F CFA.La date limite annoncée pour les préinscriptions est le 15 décembre 2026."
       },
       "n2": {
-        "title": "Titre de l'actualité 2 (démonstration)"
+        "title": "Visite du port of Cotonou et de la ville de Ouidah : une immersion dans l'histoire et la culture béninoises"
+    
       },
       "n3": {
-        "title": "Titre de l'actualité 3 (démonstration)"
+        "title": "Remise de l'attestation de reconnaissance de l'impact ecclésial et interreligieux en Côte d'Ivoire : un moment de gratitude et de célébration"
       },
       "n4": {
-        "title": "Titre de l'actualité 4 (démonstration)"
+        "title": "Sortie du concert de Pekuelle au Palais de la culture d'Abidjan : une soirée mémorable de musique et de fraternité"
       }
     },
     "imageAlt": "Illustration de l'article : {{title}}"
@@ -227,7 +226,7 @@
     "sections": {
       "controller": {
         "title": "1. Responsable du traitement",
-        "text": "Catho Tours International est responsable du traitement des données collectées sur ce site.\nContact : photo26.cathotoursinternational@gmail.com\n[Forme juridique, adresse et pays du siège : à compléter]"
+        "text": "Catho Tours International est responsable du traitement des données collectées sur ce site.\nContact : photo26.cathoursinternational@gmail.com\n[Forme juridique, adresse et pays du siège : à compléter]"
       },
       "data": {
         "title": "2. Données collectées",
@@ -251,7 +250,7 @@
       },
       "rights": {
         "title": "7. Vos droits",
-        "text": "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation ou l'opposition au traitement, leur portabilité, et retirer votre consentement.\nPour exercer ces droits, écrivez à : photo26.cathotoursinternational@gmail.com\nVous pouvez aussi introduire une réclamation auprès de l'autorité de protection des données de votre pays. [Autorité compétente : à compléter]"
+        "text": "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation ou l'opposition au traitement, leur portabilité, et retirer votre consentement.\nPour exercer ces droits, écrivez à : photo26.cathoursinternational@gmail.com\nVous pouvez aussi introduire une réclamation auprès de l'autorité de protection des données de votre pays. [Autorité compétente : à compléter]"
       },
       "security": {
         "title": "8. Sécurité",
@@ -278,7 +277,7 @@
     "draftNotice": "Version provisoire : les mentions entre crochets doivent être complétées, et le texte validé par un juriste, avant la mise en ligne.",
     "legal": {
       "intro": "Informations légales relatives au site de Catho Tours International.",
-      "body": "## Éditeur du site\nCatho Tours International\n[Forme juridique, adresse du siège et numéro d'enregistrement : à compléter]\nContact : photo26.cathotoursinternational@gmail.com\n## Responsable de la publication\n[Nom et fonction : à compléter]\n## Hébergement\n[Nom, adresse et contact de l'hébergeur : à compléter]\n## Propriété intellectuelle\n[Conditions d'utilisation des textes, images et logos : à compléter]\n## Données personnelles\nLe traitement des données personnelles est décrit dans la politique de confidentialité."
+      "body": "## Éditeur du site\nCatho Tours International\n[Forme juridique, adresse du siège et numéro d'enregistrement : à compléter]\nContact : photo26.cathoursinternational@gmail.com\n## Responsable de la publication\n[Nom et fonction : à compléter]\n## Hébergement\n[Nom, adresse et contact de l'hébergeur : à compléter]\n## Propriété intellectuelle\n[Conditions d'utilisation des textes, images et logos : à compléter]\n## Données personnelles\nLe traitement des données personnelles est décrit dans la politique de confidentialité."
     },
     "editions": {
       "intro": "Les voyages que nous avons effectués au Bénin, au Ghana et en Côte d'Ivoire, et le Sénégal qui arrive bientôt."

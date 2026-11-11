@@ -3,7 +3,7 @@ export interface NavGroup { key: 'about' | 'activities' | 'editions' | 'partners
 
 export const navGroups: NavGroup[] = [
   { key: 'about', items: [
-    { key: 'identity', href: '/#about' }, { key: 'history', href: '/notre-histoire' }, { key: 'team', href: '/equipe' },
+    { key: 'identity', href: '/#about' }, { key: 'team', href: '/equipe' },
     { key: 'members', href: '/membres' }, { key: 'commitments', href: '/engagements' }, { key: 'whereWeAre', href: '/ou-sommes-nous' },
   ] },
   { key: 'activities', items: [

@@ -17,9 +17,8 @@ export default function Edition() {
   const name = edition ? t(`editions.items.${edition.key}`) : ''
   usePageTitle(name)
   if (!edition) return <NotFound />
-  // Tant qu'aucun témoignage n'est rattaché à ce pays, les emplacements neutres s'affichent.
   const own = testimonials.filter((x) => x.edition === edition.key)
-  const shown = (own.length ? own : testimonials).slice(0, 2)
+  const shown = own.slice(0, 2)
 
   return (
     <>
@@ -48,13 +47,13 @@ export default function Edition() {
           </ul>
         </section>
 
-        {!edition.soon && (
+        {!edition.soon && shown.length > 0 && (
           <section className="mt-8 md:mt-12">
             <h2 className="text-lg font-semibold text-brand-green md:text-2xl">{t('editions.testimonials')}</h2>
             <ul className="mt-4 grid gap-4 md:mt-6 md:grid-cols-2 md:gap-6">
               {shown.map((item) => <li key={item.id}><TestimonialCard item={item} /></li>)}
             </ul>
-            <Link to={own.length ? `/temoignages?edition=${edition.slug}` : '/temoignages'} className="mt-6 inline-block rounded-full border border-brand-green px-6 py-2.5 text-[13px] font-medium text-brand-green hover:bg-brand-green hover:text-white">{t('editions.seeMore')}</Link>
+            {own.length > 2 && <Link to={`/temoignages?edition=${edition.slug}`} className="mt-6 inline-block rounded-full border border-brand-green px-6 py-2.5 text-[13px] font-medium text-brand-green hover:bg-brand-green hover:text-white">{t('editions.seeMore')}</Link>}
           </section>
         )}
 

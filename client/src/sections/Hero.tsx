@@ -25,12 +25,6 @@ export default function Hero() {
             >
               {t('hero.ctaPrimary')}
             </Link>
-            <Link
-              to="/#about"
-              className="rounded-full border border-brand-green px-4 py-2 text-xs font-medium text-brand-green md:px-7 md:py-3 md:text-[13px]"
-            >
-              {t('hero.ctaSecondary')}
-            </Link>
           </div>
         </div>
 

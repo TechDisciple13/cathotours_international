@@ -11,7 +11,7 @@ export interface PageDef {
 }
 
 export const pages: PageDef[] = [
-  { id: 'history', path: '/notre-histoire', titleKey: 'nav.items.history' },
+  // { id: 'history', path: '/notre-histoire', titleKey: 'nav.items.history' },
   { id: 'team', path: '/equipe', titleKey: 'nav.items.team' },
   { id: 'members', path: '/membres', titleKey: 'nav.items.members' },
   { id: 'commitments', path: '/engagements', titleKey: 'nav.items.commitments' },
